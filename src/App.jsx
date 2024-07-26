@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='Wrapper'>
       <RegistrationForm/>
-      {/* <UseRefRegistr/> */}
+      <UseRefRegistr/>
     </div>
   )
 }
