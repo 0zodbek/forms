@@ -28,7 +28,6 @@ function RegistrationForm() {
     setFormData([...formData, newFormData]);
     localStorage.setItem('formData', JSON.stringify([...formData, newFormData]));
 
-    // Clear input fields after submission
     setName('');
     setEmail('');
     setUsername('');
